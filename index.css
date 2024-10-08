@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    padding: 0px;
+    margin: 2px;
+    position: relative;
+    background-image: url(/images/bgimg2.webp);
+    background-repeat: no-repeat;
+    background-attachment: local scroll;
+    background-size: cover;
+}
+#Heading1{
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: #E6FF94;
+    margin: 15px 5px;    
+    text-shadow: #006769 5px 5px 5px;
+}
+#navigation{
+    background-color: #E6FF94;
+    height: fit-content;
+    padding: 5px;
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+    position: sticky;
+    top: 0px;
+    display: flex;
+}
+.navbar{
+    flex-wrap: wrap;
+    flex-direction: initial;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    justify-content: center;
+}
+.navbar a{
+    color: #006769;
+    text-decoration: none;
+    font-size: 100%;
+    font-weight: 400;
+    font-style: oblique;
+}
+.navbar a:hover{
+    color: #5DEBD7;
+    transition: 0.3s ease-out;
+}
+.intro{
+    background-color: #9DDE8B;
+    color: #006769;
+    font-style: oblique;
+    font-weight: 200;
+    font-size: x-large;
+    text-align: center;
+    border-radius: 20px;
+    padding: 1%;
+    height: fit-content;
+    margin: 3%;
+    width: 45vw;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Gill Sans MT', Calibri, 'Gill Sans','Trebuchet MS', sans-serif;
+}
+.intro h3{
+    margin: 10px;
+    color: #0a610a;
+}
+footer{
+    background-color: #E6FF94;
+    padding: 1vw;
+    position: static;
+    bottom: 0px;
+}
+.footer-content{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    height: auto;
+    background-color: #E6FF94;
+    color: #0a610a;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.footer-heading{
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+}
+.footer-heading h2{
+    margin-bottom: 15px;
+    margin-right: 50px;
+}
+
+.footer-heading a{
+    text-decoration: none;
+    color: #006769;
+    margin-bottom: 4px;
+}
+
+.footer-heading a:hover {
+    color: #5DEBD7;
+    transition: 0.3s ease-in-out;
+}

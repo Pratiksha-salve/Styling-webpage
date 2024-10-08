@@ -1,0 +1,297 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    padding: 0px;
+    margin: 2px;
+    position: relative;
+    background-color: #D4E7C5;
+}
+.heading2{
+    text-align: center;
+    color: #006769;
+    text-shadow: #E6FF94 3px 3px 3px;
+    font-size: 60px;
+    margin: 15px;
+    padding: 10px;
+}
+#navigation{
+    background-color: #E6FF94;
+    height: fit-content;
+    padding: 5px;
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    z-index: 20;
+}
+.navbar{
+    flex-wrap: wrap;
+    flex-direction: initial;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    justify-content: center;
+}
+.navbar a{
+    color: #006769;
+    text-decoration: none;
+    font-size: 100%;
+    font-weight: 400;
+    font-style: oblique;
+}
+.navbar a:hover{
+    color: #5DEBD7;
+    transition: 0.3s ease-in-out;
+}
+.introduction1{
+    margin: 10px;
+    padding: 30px;
+    border: #006769 solid 4px;
+    border-radius: 30px;
+    background-image: url(/images/indianfood.avif);
+    background-size: cover;
+    text-align: center;
+    height: fit-content;
+    text-wrap: pretty;
+}
+.introduction1 p{
+    margin-left: 50%;
+    width: 50%;
+    height: fit-content;
+    color: #E1ECC8;
+    font-size: 30px;
+    font-family: 'Gill Sans MT', Calibri, 'Gill Sans','Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-style: oblique;
+}
+.introduction2{
+    margin: 10px;
+    padding: 30px;
+    border: #006769 solid 4px;
+    border-radius: 30px;
+    background-image: url(/images/italianfood.avif);
+    background-size: cover;
+    text-align: center;
+    height: fit-content;
+    display: grid;
+    place-items: center;
+}
+.introduction2 p{
+    margin-right: 60%;
+    width: 40%;
+    height: fit-content;
+    color: #E6FF94;
+    font-size: 30px;
+    font-family: 'Gill Sans MT', Calibri, 'Gill Sans','Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-style: oblique;
+
+}
+
+.introduction3{
+    margin: 10px;
+    padding: 30px;
+    border: #006769 solid 4px;
+    border-radius: 30px;
+    background-image: url(/images/mexicanfood.jpg);
+    background-size: cover;
+    text-align: center;
+    height: fit-content;
+    display: grid;
+    place-items: center;
+}
+.introduction3 p{
+    margin-left: 50%;
+    width: 40%;
+    height: fit-content;
+    color: #093131;
+    font-size: 30px;
+    font-family: 'Gill Sans MT', Calibri, 'Gill Sans','Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-style: oblique;
+}
+
+.introduction4{
+    margin: 10px;
+    padding: 30px;
+    border: #006769 solid 4px;
+    border-radius: 30px;
+    background-image: url(/images/korean.avif);
+    background-size: cover;
+    text-align: center;
+    height: fit-content;
+    display: grid;
+    place-items: center;
+}
+.introduction4 p{
+    margin-right: 60%;
+    width: 40%;
+    height: 100%;
+    color: #000000;
+    font-size: 30px;
+    font-family: 'Gill Sans MT', Calibri, 'Gill Sans','Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-style: oblique;
+}
+
+.introduction5{
+    margin: 10px;
+    padding: 30px;
+    border: #006769 solid 4px;
+    border-radius: 30px;
+    background-image: url(/images/japanfood.avif);
+    background-size: cover;
+    text-align: center;
+    height: fit-content;
+}
+.introduction5 p{
+    margin-left: 50%;
+    width: 50%;
+    height: 100%;
+    color: white;
+    font-size: 30px;
+    font-family: 'Gill Sans MT', Calibri, 'Gill Sans','Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-style: oblique;
+    justify-content: center;
+    
+}
+
+.section{
+    margin: 10px;
+    padding: 10px;
+    border: #006769 solid 4px;
+    border-radius: 30px;
+    text-align: center;
+    color: #006769;
+    background-color: #9DDE8B;
+    font-size: x-large;
+}
+.basic{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: medium;
+}
+.basic h3{
+    color: #1A5319;
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+.info{
+    margin: 10px;
+    padding: 10px;
+    border: #006769 double 4px;
+    border-radius: 20px;
+    position: relative;
+    margin-right: 15px;
+    width: 20%;
+    text-align: center;
+    background-color: #D4E7C5;
+
+}
+.section2{
+    border: #006769 solid 4px;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color: #006769;
+}
+.fav-dishes{
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap ;
+}
+.dish{
+    border: #006769 5px solid;
+    border-radius: 50%;
+    margin: 2px;
+    padding: 2px;
+    height: 250px;
+    width: 30%;
+    background-size: cover;
+    text-align: center;
+    font-weight: 800;
+    text-wrap: pretty;
+    text-shadow: 3px 3px 4px #000000;
+    display: grid;
+    place-items: center;
+}
+.one{background-image: url(/images/samosa.jpg);}
+.two{background-image: url(/images/butterchicken.jpg);}
+.three{background-image: url(/images/pavbhaji.jpg);}
+.d1{background-image: url(/images/d1.avif)}
+.d2{background-image: url(/images/d2.avif)}
+.d3{background-image: url(/images/d3.jpg)}
+.m1{background-image: url(/images/m1.jpg);}
+.m2{background-image: url(/images/m2.jpg);}
+.m3{background-image: url(/images/m3.jpg);}
+.k1{background-image: url(/images/k1.jpg);}
+.k2{background-image: url(/images/k2.jpg);}
+.k3{background-image: url(/images/k3.webp);}
+.j1{background-image: url(/images/j1.avif);}
+.j2{background-image: url(/images/j2.avif);}
+.j3{background-image: url(/images/j3.avif);}
+
+.dish a{
+    color:#E6FF94;
+    text-decoration: none;
+    font-size: xxx-large;
+    text-align: center;
+}
+.dish a:hover{
+    color: #006769;
+    transition: 0.3s ease-in-out;
+}
+
+
+footer{
+    background-color: #E6FF94;
+    padding: 1vw;
+    position: static;
+    bottom: 0px;
+}
+.footer-content{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    height: auto;
+    background-color: #E6FF94;
+    color: #006769;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.footer-heading{
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+}
+.footer-heading h2{
+    margin-bottom: 15px;
+    margin-right: 50px;
+}
+
+.footer-heading a{
+    text-decoration: none;
+    color: #006769;
+    margin-bottom: 4px;
+}
+
+.footer-heading a:hover {
+    color: #5DEBD7;
+    transition: 0.3s ease-in-out;
+}
